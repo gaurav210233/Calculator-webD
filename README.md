@@ -1,2 +1,6 @@
 # Calculator-webD
-calculator using html, css, js
+Simple Calculator using:
+  * HTML
+  * CSS
+  * Javascript
+  * Bootstrap
