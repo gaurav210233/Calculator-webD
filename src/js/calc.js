@@ -12,6 +12,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 currentValue = "";
                 displayValue.value = currentValue;
             } else if (value === "=") {
+                if (currentValue == "") {
+                    displayValue.value = "";
+                    return;
+                }
                 convertedValue = currentValue
                     .replace("×", "*")
                     .replace("÷", "/")
